@@ -1,13 +1,12 @@
-export * from "./nodes";
-export * from "./renderer";
+export * from './nodes'
+export * from './renderer'
 export {
-  HexColor,
-  ComplexColor,
-  InternalImage,
-  InternalShape,
-  InternalText,
-  InternalPresentation,
-  InternalSlide,
-  InternalSlideObject,
-  normalizeJsx,
-} from "./normalizer";
+    InternalImage,
+    InternalShape,
+    InternalText,
+    InternalPresentation,
+    InternalSlide,
+    InternalSlideObject,
+    normalizePresentation as normalizeJsx,
+} from './normalizer'
+export { HexColor, ComplexColor } from './normalize/normalize-utils'

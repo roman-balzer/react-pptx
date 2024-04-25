@@ -8,6 +8,6 @@
     "noImplicitAny": true,
     "strictNullChecks": true
   },
-  "include": ["src", "types"],
+  "include": ["src", "types", "generate-test/generate-test-pptx.tsx"],
   "exclude": ["dist"]
 }

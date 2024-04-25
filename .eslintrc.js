@@ -15,7 +15,6 @@ module.exports = {
     "prettier",
   ],
   rules: {
-    "no-console": "error",
     "no-constant-condition": "off",
     "no-unreachable": "error",
     "spaced-comment": "error",

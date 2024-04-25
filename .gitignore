@@ -1,4 +1,5 @@
 node_modules
+generate-test
 dist
 preview
 !src/preview
